@@ -45,5 +45,23 @@ $ ls /usr/lib/jvm
 $ sudo nano /etc/profile
 ```
 * Nuevamente comento que al estar como administrador el comando lo utilizaré sin el `sudo` que es quien nos da el poder de hace cambios importantes de administrador.
+* Al entrar al fichero encontraremos varias variables especificadas por lo que nos moveremos al final del mismo y añadiremos las siguientes líneas:
 
-![](./img/6.png)
+```
+ # Java version
+JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64 ----- Donde esta era la ruta anterior que comentamos que recordásemos
+PATH=$PATH:$JAVA_HOME/bin
+export JAVA_HOME
+export JRE_HOME
+export PATH
+```
+![](./img/12.png)
+
+* Una vez escrito las líneas le daremos `ctrl` + `x` para guardar los cambios en el fichero. Nos preguntará si queremos guardarlo y le daremos a la `s`.
+
+![](./img/9.png)
+* Para comprobar que esto ha funcionado, utilizaremos el siguiente comando para leer el fichero que acabamos de editar para ver que todo siga en orden:
+```
+$ cat /etc/profile
+```
+* Una vez este todo perfecto comprobamos que la variable que hemos utilizado haga de referencia a la ruta donde tenemos instalado el Java
