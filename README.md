@@ -49,13 +49,14 @@ $ sudo nano /etc/profile
 
 ```
  # Java version
-JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64 ----- Donde esta era la ruta anterior que comentamos que recordásemos
+JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64 -- Donde esta era la ruta anterior que comentamos que recordásemos
 PATH=$PATH:$JAVA_HOME/bin
 export JAVA_HOME
 export JRE_HOME
 export PATH
 ```
 ![](./img/12.png)
+![](./img/13.png)
 
 * Una vez escrito las líneas le daremos `ctrl` + `x` para guardar los cambios en el fichero. Nos preguntará si queremos guardarlo y le daremos a la `s`.
 
