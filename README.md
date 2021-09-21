@@ -56,7 +56,7 @@ export JRE_HOME
 export PATH
 ```
 ![](./img/13.png)
-![](./img/12.png)
+
 
 * Una vez escrito las líneas le daremos `ctrl` + `x` para guardar los cambios en el fichero. Nos preguntará si queremos guardarlo y le daremos a la `s`.
 
