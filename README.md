@@ -56,7 +56,7 @@ export JRE_HOME
 export PATH
 ```
 ![](./img/13.png)
-
+![](./img/12.png)
 
 * Una vez escrito las líneas le daremos `ctrl` + `x` para guardar los cambios en el fichero. Nos preguntará si queremos guardarlo y le daremos a la `s`.
 
@@ -65,4 +65,5 @@ export PATH
 ```
 $ cat /etc/profile
 ```
+
 * Una vez este todo perfecto comprobamos que la variable que hemos utilizado haga de referencia a la ruta donde tenemos instalado el Java
