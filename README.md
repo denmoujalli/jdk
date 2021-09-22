@@ -71,3 +71,11 @@ $ cat /etc/profile
 ```
 $ echo $JAVA_HOME
 ```
+![](./img/14.png)
+* Para comprobar que todo lo que hicimos está correcto, ejecutaremos estos dos comandos para volver a vizualizar la versión de Java y su compilador.
+
+```
+$ java -version
+$ javac -version
+```
+![](./img/11.png)
