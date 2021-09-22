@@ -65,5 +65,9 @@ export PATH
 ```
 $ cat /etc/profile
 ```
-
-* Una vez este todo perfecto comprobamos que la variable que hemos utilizado haga de referencia a la ruta donde tenemos instalado el Java
+![](./img/10.png)
+* Una vez este todo perfecto, comprobamos que la variable que hemos utilizado haga de referencia a la ruta donde tenemos instalado el Java. Pero primero tendremos que reiniciar nuestro sistema para que pueda guardarse por completo el cambio que hemos realizado en las variables.
+* Utilizaremos este comando para verificar que se haya establecido la variable correctamente que hemos asignado con anterioridad.
+```
+$ echo $JAVA_HOME
+```
