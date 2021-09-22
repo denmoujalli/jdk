@@ -10,7 +10,8 @@ $ sudo apt-get update
 ```
 $ apt-get update
 ```
-![](./img/1.png)
+<img scr="img/1.png">
+
 * Seguidamente de haberse actualizado, instalaremos OpenJDK, se trata de una versión open source y gratuita a diferencia del JDK de Oracle que es privativo. La versión que yo voy a instalar es la 8, pero dependiendo de la versión que quieras instalar donde se encuentra el número en el comando puede ser cambiado por la deseada.
 ```
 $ sudo apt install openjdk-8-jdk
