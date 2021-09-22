@@ -1,6 +1,6 @@
 # Instalación de JDK en Ubuntu 20.04
 ## 1. ¿Qué es el JDK y para que se usa?
-* El JDK o muy bien lo que significan sus siglas: Java Development Kit es un software que nos permite crear programa en base a su lenguaje Java. Se usa mayormente para crear programas como anteriormente comentado, juegos y aplicaciones para móviles.
+* El JDK o muy bien lo que significan sus siglas: Java Development Kit es un software que nos permite crear programas en base a su lenguaje Java. Se usa mayormente para crear programas como anteriormente comentado, juegos y aplicaciones para móviles.
 ## 2. ¿Cómo instalar JDK en nuestro SO Ubuntu?
 * Primeramente lo que vamos hacer es actualizar los repositorios del sistema con el siguiente comando:
 ```
@@ -10,7 +10,7 @@ $ sudo apt-get update
 ```
 $ apt-get update
 ```
-<img scr="img/1.png">
+![](./img/1.png)
 
 * Seguidamente de haberse actualizado, instalaremos OpenJDK, se trata de una versión open source y gratuita a diferencia del JDK de Oracle que es privativo. La versión que yo voy a instalar es la 8, pero dependiendo de la versión que quieras instalar donde se encuentra el número en el comando puede ser cambiado por la deseada.
 ```
@@ -73,7 +73,7 @@ $ cat /etc/profile
 $ echo $JAVA_HOME
 ```
 ![](./img/14.png)
-* Para comprobar que todo lo que hicimos está correcto, ejecutaremos estos dos comandos para volver a vizualizar la versión de Java y su compilador.
+* Para comprobar que todo lo que hicimos está correcto, ejecutaremos estos dos comandos para volver a visualizar la versión de Java y su compilador.
 
 ```
 $ java -version
