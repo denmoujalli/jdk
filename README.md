@@ -49,7 +49,9 @@ $ java -version
 ![](./img/6.png)
 
 </div>
-## Configurar las variables de entorno
+
+## 3. Configurar las variables de entorno
+
 Para poder configurar este parámetro tendremos que confirmar que se haya instalado java en nuestras librerías, para ello utilizamos este comando:
 ```
 $ ls /usr/lib/jvm
